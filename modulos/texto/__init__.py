@@ -25,5 +25,3 @@ def menu() -> none:
 [8] - Energia Cinética
 [9] - Energia Potencial Gravitacional
 [10] - Trabalho de uma Força''')
-
-menu()
