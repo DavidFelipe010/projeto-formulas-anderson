@@ -12,3 +12,18 @@ def titulo(txt: str) -> none:
         {texto.title()}
 {linha}''')
 
+
+def menu() -> none:
+    print(f'''[0] - Sair
+[1] - Velocidade Média
+[2] - Movimeto uniforme
+[3] - Aceleração Média
+[4] - Movimento Uniformemente Variado
+[5] - Equação de Torricelli
+[6] - Segunda Lei de Newton
+[7] - Força Peso
+[8] - Energia Cinética
+[9] - Energia Potencial Gravitacional
+[10] - Trabalho de uma Força''')
+
+menu()
