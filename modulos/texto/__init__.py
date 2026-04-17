@@ -12,5 +12,3 @@ def titulo(txt: str) -> none:
         {texto.title()}
 {linha}''')
 
-
-titulo('oii tudp bekmm mna')
