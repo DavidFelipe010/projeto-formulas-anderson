@@ -1,10 +1,21 @@
 import os
 
 def limpa_terminal() -> none:
+    '''
+    Função para limpar o terminal
+    :return: none
+    '''
+
     os.system('cls' if os.name == 'nt' else 'clear')
 
 
 def titulo(txt: str) -> none:
+    '''
+    Função para simular um titulo
+    :txt: Texto que será transformado em titulo
+    :return: none
+    '''
+
     texto = txt.strip()
     linha = '=' * (len(texto) + 16)
 
@@ -14,6 +25,11 @@ def titulo(txt: str) -> none:
 
 
 def menu() -> none:
+    '''
+    Função para mostrar o menu principal
+    :return: none
+    '''
+    
     print(f'''[0] - Sair
 [1] - Velocidade Média
 [2] - Movimeto uniforme
