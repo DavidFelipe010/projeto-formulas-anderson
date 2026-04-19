@@ -24,7 +24,7 @@ def verifica_float(txt) -> float:
     '''
 
     while True:
-        label = input(txt).strip()
+        label = input(txt).strip().replace(',', '.')
 
         try:
             num = float(label)
@@ -33,3 +33,23 @@ def verifica_float(txt) -> float:
         except (ValueError, TypeError):
             print('\033[31m[ERROR] Valor inválido! Digite apenas números.\n \033[m')
 
+def verifica_numero_positivo(txt) -> float:
+    '''
+    Função para verificar se o valor é decimal
+    :txt: Texto que será mostrado no input
+    :return: float
+    '''
+
+    while True:
+        label = input(txt).strip().replace(',', '.')
+
+        try:
+            num = float(label)
+            
+            if num < 0:
+                print('\033[31m[ERROR] Valor inválido! Digite um número positivo.\n \033[m')
+                continue
+            return num
+
+        except (ValueError, TypeError):
+            print('\033[31m[ERROR] Valor inválido! Digite apenas números.\n \033[m')
