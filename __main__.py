@@ -11,11 +11,12 @@ def main():
 
         menu()
         esc = verifica_int("\nDigite o número da fórmula que deseja calcular: ")
-
+        
         match esc:
             case 0:
+                limpa_terminal()
                 print("\nSaindo do programa...")
-                exit()
+                break
             case 1:
                 velocidade_media()
             case 2:
