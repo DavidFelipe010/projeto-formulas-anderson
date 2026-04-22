@@ -1,3 +1,8 @@
+'''
+Turma: 2º DSA
+Alunos: Cauã Cavalcanti, Caio Henrique, David Felipe, Guilherme Fernando, Giovana Hadassa, Henrique Eronildo, Neandro Felipe, Rohan Anthunes
+'''
+
 from modulos.formulas import velocidade_media, calculando_movimento_uniforme, aceleracao_media, calculando_movimento_uniformemente_variado, calculando_equacao_torricelli, segunda_lei_newton, forca_peso, energia_cinetica, energia_potencial, job
 from modulos.texto import limpa_terminal, titulo, menu
 from modulos.verificadores import verifica_int
